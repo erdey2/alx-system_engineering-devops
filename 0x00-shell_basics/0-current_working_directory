@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "link_file \n"
+realpath -f link1
