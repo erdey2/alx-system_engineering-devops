@@ -1,2 +1,2 @@
 #!/bin/bash
-realpath -f link1
+realpath link1
