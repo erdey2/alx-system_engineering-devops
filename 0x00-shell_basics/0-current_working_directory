@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "readlink -f link_file \n"
+echo "link_file \n"
