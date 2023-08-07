@@ -1,2 +1,2 @@
 #!/bin/bash
-cat /bin/bash grep root
+grep "root"  /bin/bash
