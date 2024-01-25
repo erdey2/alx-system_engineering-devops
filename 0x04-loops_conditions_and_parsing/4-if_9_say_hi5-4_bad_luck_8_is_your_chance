@@ -7,5 +7,5 @@ while [ $i -le 10 ]; do
 	then
 		echo "Hi"
 	fi
-	i=$(($i+1))
+	i=$((i+1))
 done
