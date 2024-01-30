@@ -1,3 +1,3 @@
 #!/usr/bin/env ruby
 # check a match
-puts ARGV[0].scan(/hb{2,5}n/).join
+puts ARGV[0].scan(/hb{1,4}n/).join
