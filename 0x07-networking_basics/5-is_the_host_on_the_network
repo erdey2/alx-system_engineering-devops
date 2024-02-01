@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# ping an ip address
+IP="${1}"
+
+name=$(basename "${BASH_SOURCE[@]}")
+if ! [ "$IP" ]
+then
+	echo "Usage: ${name} {IP_ADDRESS}"
+else
+	ping -c 5 "${IP}"
+fi
