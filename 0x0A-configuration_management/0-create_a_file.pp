@@ -1,7 +1,7 @@
 # create a new file with a given permissions
 
 
-file {'/tmp/school':
+file { '/tmp/school':
 owner => 'www-data',
 group => 'www-data',
 mode => '0744',
