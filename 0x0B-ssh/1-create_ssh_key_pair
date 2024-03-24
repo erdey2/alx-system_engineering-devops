@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Create SSH public and private key 
+
+ssh-keygen -b 4096 -f school -n betty
