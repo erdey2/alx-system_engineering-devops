@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# Create SSH public and private key 
+# Create SSH public and private key using RSA Algo 
 
-ssh-keygen -b 4096 -f school -n betty
+ssh-keygen -b 4096 -f school -N betty
