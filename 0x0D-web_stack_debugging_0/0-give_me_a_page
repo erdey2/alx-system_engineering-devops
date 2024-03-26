@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Web debugging (start appache server)
+
+service apache2 start
