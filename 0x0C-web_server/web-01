@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# my server(server-01)
+
+
+eval $("ssh-agent")
+
+ssh-add ~erdey/.ssh/id_rsa
+
+
+ssh ubuntu@100.25.202.197
