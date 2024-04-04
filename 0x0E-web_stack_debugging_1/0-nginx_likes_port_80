@@ -4,4 +4,4 @@
 rm /etc/nginx/sites-enabled/default
 ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 # restart the engine x
-restart nginx restart
+service nginx restart
